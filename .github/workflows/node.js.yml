@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    - run: npm test:nowatch
+    - run: npm run test:nowatch
     
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
