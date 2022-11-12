@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "npm run start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:nowatch": " set CI=true && react-scripts test --coverage --transformIgnorePatterns \"node_modules/(?!axios)/\"",
