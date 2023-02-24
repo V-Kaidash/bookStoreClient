@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/icons-material": "^5.10.9",
     "@mui/material": "^5.10.13",
     "@testing-library/jest-dom": "^5.16.4",
@@ -15,7 +16,11 @@
     "prop-types": "^15.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-redux": "^8.0.5",
     "react-scripts": "5.0.1",
+    "redux": "^4.2.0",
+    "redux-mock-store": "^1.5.4",
+    "redux-thunk": "^2.4.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
